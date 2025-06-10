@@ -3,21 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sneezeify</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+   
 </head>
-<body>
 <header>
-<nav>
-
+     <nav>
 <div class="back"><a href="index.html">voltar</a></div>
-
-<div class="logo2">LOGIN</div>
+<div class="logo2">CADASTRO</div>
 </nav>
-    </header>
-    <body>
-<form id="loginForm">
+</header>
+<body>
+    <div class="container">
+        <form id="cadastroForm">
+            <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+            </div>
             <div class="form-group">
                 <label for="email">E-mail:</label>
                 <input type="email" id="email" name="email" required>
@@ -26,13 +28,11 @@
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha" name="senha" required>
             </div>
-            <button type="submit">Entrar</button>
-            <p>Não tem uma conta? <a href="cadastro.html">Cadastre-se</a></p>
+            <button type="submit">Cadastrar</button>
+            <p>Já tem uma conta? <a href="login.html">Faça login</a></p>
         </form>
         <p id="mensagemErro" class="error"></p>
     </div>
     <script src="script.js"></script>
-
 </body>
-
 </html>
