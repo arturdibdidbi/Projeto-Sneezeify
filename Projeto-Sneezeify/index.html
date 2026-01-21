@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneezeify - Transformando ideias em impacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <div class="logo"><img  src="imgs/sneezers.jpg" alt="Logo Sneezeify">
+            <a href="#">Sneezeify</a> 
+        </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><a href="#comecar" id="openAuthModal" class="btn-primary">Começar</a></li>
+                </ul>
+                <button class="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+<div class="fullscreen-intro" id="fullscreenIntro">
+  <div class="video-container">
+    <video id="brandVideo" muted>
+      <source src="imgs/Vídeo sem título ‐ Feito com o Clipchamp (3).mp4" type="video/mp4">
+      
+    </video>
+  </div>
+</div>
+</div>
+    <!-- Seção Hero -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transformando ideias em impacto digital</h1>
+                <p class="hero-subtitle">Soluções inovadoras para impulsionar sua presença online com design elegante e tecnologia de ponta.</p>
+                <a href="#servicos"  class="btn-primary btn-large">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Recursos -->
+    <section id="servicos" class="features">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            <p class="section-subtitle">Descubra como podemos elevar seu negócio ao próximo nível</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Sites personalizados com performance excepcional e designs responsivos que se adaptam a qualquer dispositivo.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Marketing Digital</h3>
+                    <p>Estratégias sob medida para aumentar sua visibilidade e converter visitantes em clientes fiéis.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Aplicativos Móveis</h3>
+                    <p>Soluções mobile intuitivas que oferecem experiências excepcionais aos seus usuários.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud Solutions</h3>
+                    <p>Infraestrutura escalável e segura para garantir que seu negócio esteja sempre disponível.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="about-content">
+                <h2 class="section-title">Inovação é nosso sobrenome</h2>
+                <p class="section-subtitle">A Sneezeify nasceu da paixão por criar soluções digitais que realmente fazem a diferença.</p>
+                <p>Combinamos design elegante, tecnologia de ponta e estratégias inteligentes para entregar resultados excepcionais aos nossos clientes. Nossa equipe de especialistas está sempre um passo à frente, explorando as últimas tendências para oferecer soluções únicas e eficazes.</p>
+                <a href="#contato" class="btn-secondary">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Destaques -->
+    <section class="highlights">
+        <div class="container">
+            <h2 class="section-title">Por que escolher a Sneezeify?</h2>
+            
+            <div class="highlight-cards">
+                <div class="highlight-card">
+                    <span class="highlight-number">01</span>
+                    <h3>Design Excepcional</h3>
+                    <p>Interfaces que encantam e engajam seus usuários desde o primeiro clique.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <span class="highlight-number">02</span>
+                    <h3>Tecnologia de Ponta</h3>
+                    <p>Utilizamos as ferramentas mais modernas para garantir performance e segurança.</p>
+                </div>
+                
+                <div class="highlight-card">
+                    <span class="highlight-number">03</span>
+                    <h3>Suporte Dedicado</h3>
+                    <p>Nossa equipe está sempre disponível para ajudar e garantir seu sucesso.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção CTA -->
+    <section class="cta">
+        <div class="container">
+            <h2>Pronto para transformar seu negócio?</h2>
+            <p>Entre em contato hoje mesmo e descubra como podemos ajudar você a alcançar seus objetivos.</p>
+            <a href="#contato" class="btn-primary btn-large">Fale conosco</a>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer id="contato" class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="#" class="logo">Sneezeify</a>
+                   <div class="footer-description"> <p>Transformando ideias em impacto digital desde 2025.</p></div>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Links Rápidos</h3>
+                    <ul>
+                        <li><a href="#inicio">Início</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Serviços</h3>
+                    <ul>
+                        <li><a href="#">Desenvolvimento Web</a></li>
+                        <li><a href="#">Marketing Digital</a></li>
+                        <li><a href="#">Aplicativos Móveis</a></li>
+                        <li><a href="#">Consultoria</a></li>
+                        <li><a href="#">Cloud Solutions</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> contato@sneezeify.com</li>
+                        <li><i class="fas fa-phone"></i> (11) 98765-4321</li>
+                        <li><i class="fas fa-map-marker-alt"></i> São Paulo, Brasil</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>© 2025 Sneezeify. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Termos de Serviço</a>
+                    <a href="#">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Modal de Autenticação -->
+<div class="auth-modal" id="authModal">
+    <div class="auth-container">
+        <button class="close-modal">&times;</button>
+        
+        <div class="auth-tabs">
+            <button class="tab-btn active" data-tab="login">Login</button>
+            <button class="tab-btn" data-tab="register">Cadastro</button>
+        </div>
+        
+        <!-- Formulário de Login -->
+        <form id="loginForm" class="auth-form active">
+            <div class="form-group">
+                <label for="loginEmail">Email</label>
+                <input type="email" id="loginEmail" required>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="loginPassword">Senha</label>
+                <input type="password" id="loginPassword" required>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-options">
+                <label class="remember-me">
+                    <input type="checkbox"> Lembrar de mim
+                </label>
+                <a href="#" class="forgot-password">Esqueceu a senha?</a>
+            </div>
+            
+            <button type="submit" class="btn-primary">Entrar</button>
+            
+            <div class="social-login">
+                <p>Ou entre com:</p>
+                <div class="social-buttons">
+                    <button type="button" class="social-btn google">
+                        <i class="fab fa-google"></i> Google
+                    </button>
+                    <button type="button" class="social-btn github">
+                        <i class="fab fa-github"></i> GitHub
+                    </button>
+                </div>
+            </div>
+        </form>
+        
+        <!-- Formulário de Cadastro -->
+        <form id="registerForm" class="auth-form">
+            <div class="form-group">
+                <label for="registerName">Nome Completo</label>
+                <input type="text" id="registerName" required>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="registerEmail">Email</label>
+                <input type="email" id="registerEmail" required>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group">
+                <label for="registerPassword">Senha</label>
+                <input type="password" id="registerPassword" required>
+                <span class="error-message"></span>
+                <div class="password-strength">
+                    <span class="strength-bar"></span>
+                    <span class="strength-bar"></span>
+                    <span class="strength-bar"></span>
+                    <span class="strength-bar"></span>
+                    <span class="strength-bar"></span>
+                    <span class="strength-text"></span>
+                </div>
+            </div>
+            
+            <div class="form-group">
+                <label for="registerConfirmPassword">Confirmar Senha</label>
+                <input type="password" id="registerConfirmPassword" required>
+                <span class="error-message"></span>
+            </div>
+            
+            <div class="form-group terms">
+                <label class="checkbox-label">
+                    <input type="checkbox" id="acceptTerms" required>
+                    <span>Eu concordo com os <a href="#">Termos de Serviço</a> e <a href="#">Política de Privacidade</a></span>
+                </label>
+                <span class="error-message"></span>
+            </div>
+            
+            <button type="submit" class="btn-primary">Criar Conta</button>
+        </form>
+    </div>
+</div>
+
+<!-- Notificação -->
+<div class="notification" id="notification"></div>
+</body>
+</html>
