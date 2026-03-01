@@ -2,6 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import dotenv from 'dotenv'
 import { Mongo } from './database/mongo.js'
+import authRouter from 'back-end/auth/auth.js'
 
 dotenv.config({ override: true, debug: true })
 
@@ -32,9 +33,13 @@ async function main() {
     })
   })
 
+
+  app.use('/auth', authRouter)
+
   app.listen(port, () => {
     console.log(`Server is running on: http://${hostname}:${port}`)
   })
 }
 
 main()
+
